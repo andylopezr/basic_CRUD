@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>{% block title %} Welcome {% endblock %}</h1>
+    <img src="https://thumbs.dreamstime.com/z/design-concept-word-university-website-banner-design-concept-word-university-website-banner-137801111.jpg" alt="university banner">
+    <div class="home">
+        <div class="home">
+            To add a new student click <a href="{{ url_for('create') }}">here</a> or on the add tab.
+        </div>
+    </div>
+{% endblock %}
